@@ -1,7 +1,7 @@
 <h1>Divisor de conta de consumação</h1>
 
 <h3>Para rodar o projeto, basta acessar o link:</h3>
-
+https://bill-splitter-nu.vercel.app/
 
 
 <h3>Caso queira rodar no seu computador:</h3>
