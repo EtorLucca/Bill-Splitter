@@ -1,34 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>Divisor de conta de consumação</h1>
 
-## Getting Started
+<h3>Para rodar o projeto, basta acessar o link:</h3>
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h3>Caso queira rodar no seu computador:</h3>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Clonar o repositório:
+  <code> git clone https://github.com/EtorLucca/Bill-Splitter.git </code>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Instalar as dependências:
+  <code> yarn install </code>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Iniciar o projeto:
+  <code> yarn dev </code>
 
-## Learn More
+- O projeto será aberto por padrão no endereço "localhost:3000"
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2>Como funciona a aplicação</h2>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Primeiramente cadastrar os clientes clicando no ícone no canto superior direito (MODAL abrirá para cadastro).
+- Em seguida cadastrar os produtos consumidos, pelo ícone de carrinho ao lado do cadastro de clientes(MODAL abrirá para cadastro).
+- O sistema já irá calcular o total e a divisão igual por pessoa.
+- Para divisão parcial (por consumação individual) selecionar o cliente.
+- Na parte direita aparecerá o Cliente selecionado e a lista de produtos cadastrados na comanda.
+- Selecionar para cada produto a quantidade de pessoas para qual será feita a divisão.
+- A aplicação calcula o valor individual a ser pago (ETAPA NÃO IMPLEMENTADA / EM IMPLEMENTAÇÃO)
+- A aplicação calcula a taxa de serviço caso o cliente queira pagar (ETAPA NÃO INICIADA)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h2>Tecnologias utilizadas</h2>
+- Next JS <br>
+- React JS <br>
+- React Hooks (useState, useEffect) <br>
+- JSON (como "banco de dados")
+- Fetch API (GET, POST e DELETE)
+- Javascript <br>
+- HTML <br>
+- CSS <br>
+- Flexbox <br>
+- Responsividade <br>

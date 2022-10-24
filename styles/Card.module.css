@@ -1,0 +1,21 @@
+.card {
+  cursor: pointer;
+  color: #FFFFFF;
+  border-bottom: 1px solid #505050;
+  width: 90%;
+  height: 32px;
+  margin-left: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.name {
+  margin-left: 16px;
+  width: 70%;
+}
+
+.total {
+  width: 30%;
+}
