@@ -79,6 +79,8 @@ export default function Home() {
   }
 
   function DataClear() {
+    setSelectedClient("");
+
     const options = {
       method: "delete",
     };
