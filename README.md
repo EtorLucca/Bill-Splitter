@@ -41,3 +41,9 @@ https://bill-splitter-nu.vercel.app/
 - CSS <br>
 - Flexbox <br>
 - Responsividade <br>
+
+
+<h2>Etapas Seguintes</h2>
+- Implementação da divisão e cálculo da taxa de serviço
+- Refatoração do código
+- Componentização e reaproveitamento de código
